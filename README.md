@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date: 09-12-2024
+## Date: 07-05-2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -36,94 +36,97 @@ book.html
 ```html
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
     <style>
-        .bookpage {
+
+        .bookpage{
             width: 400px;
             height: 600px;
-            color: #FFFFFF; /* Light font color for better contrast */
+            color: gainsboro;
             margin-left: auto;
             margin-right: auto;
             padding: 20px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-image: url('file:///C:/college/web/bground.jpg');
+            background-image: url("C:\\college\\web\\bg.jpeg");
             background-size: cover;
-            background-position: center;
         }
 
-        .insight {
-            color: #FFD700; /* Gold for highlighting */
+        .insight{
+            color: rgb(247, 162, 5);
         }
 
-        .hrstyle {
+        .hrstyle{
             width: 100px;
         }
 
-        .author {
+        .author{
             display: inline;
             position: relative;
-            color: #D3D3D3; /* Light gray for subtle text */
+            color: rgb(223, 226, 220);
             top: 230px;
+
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: medium;
+            font-size: small;
         }
 
-        .booktitle {
+        .booktitle{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: larger;
             text-align: center;
             position: relative;
             top: 30px;
-            white-space: nowrap; /* Prevents wrapping */
         }
 
-        .id {
+        .id{
             width: 400px;
             position: relative;
-            top: 50px;
+            top: 100px;
         }
 
-        .pub {
+        .pub{
             font-size: medium;
             position: relative;
             top: 230px;
             left: 315px;
         }
 
-        .ed {
-            color: #D3D3D3; /* Light gray */
+        .ed{
+            color:  rgb(223, 226, 220);
             font-size: medium;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             position: relative;
             top: 150px;
+
         }
 
-        .subtitle {
+        .subtitle{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: large;
             position: relative;
             top: 40px;
         }
 
-        .mypic {
+        .mypic{
             position: relative;
             top: 230px;
             left: 260px;
             width: 100px;
             height: 100px;
             background-size: cover;
+
         }
     </style>
     <title>BOOK COVER</title>
 </head>
 <body>
     <div class="bookpage">
-        <div class="insight">INSIGHT</div>
+        <div class="insight"> INSIGHT</div>
         <div class="hrstyle">
             <hr style="color: white">
         </div>
         <div class="booktitle">
-            "The Grace of Waiting"
+         <h1>"The Grace of Waiting"
+                </h1>
         </div>
         <div class="subtitle">
             <center>
@@ -131,26 +134,28 @@ book.html
             </center>
         </div>
         <div class="mypic">
-            <img src="C:\back up\important documents\Passport size photo.jpg" width="125" height="140" alt="">
+            <img src="nishanth.png" width="125" height="140" alt="">
         </div>
         <div class="id">
             <hr style="color: wheat">
         </div>
         <div class="author">
-            <p><b> K S VINAY SUHIRTHAN</b></p>
+            <p><b> Nitheesh Kumar B (212224230189)</b></p>
         </div>
         <div class="pub">
+            
         </div>
         <div class="ed">
             <b>LIMITED EDITION</b>
         </div>
     </div>
 </body>
+
 </html>
 
 ```
 ## OUTPUT:
 
-![alt text](<Screenshot 2024-12-09 192051.png>)
+![alt text](image.png)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
